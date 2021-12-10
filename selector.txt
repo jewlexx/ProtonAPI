@@ -1,1 +1,0 @@
-#root > div.App__Root-sc-1j88ygk-0.eQbISN.root > main > div > div > div > div.GameInfo__SummaryContainer-sc-dspwhy-1.cxfUNR > div > div:nth-child(2) > span
