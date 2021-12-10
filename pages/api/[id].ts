@@ -6,6 +6,7 @@ export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse<Data | string>,
 ) {
+  res.setHeader('Access-Control-Allow-Origin', '*');
   const { id } = req.query;
 
   if (typeof id !== 'string') {
