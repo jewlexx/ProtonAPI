@@ -3,9 +3,9 @@ import type { NextPage, GetServerSideProps } from 'next';
 import Head from 'next/head';
 import { Fab, Paper as MPaper } from '@mui/material';
 import LinkIcon from '@mui/icons-material/Link';
-import type { Data, Tiers } from '../lib/getGame';
-import getGame from '../lib/getGame';
-import styles from '../styles/Home.module.css';
+import type { Data, Tiers } from '../../lib/getGame';
+import getGame from '../../lib/getGame';
+import styles from '../../styles/Home.module.css';
 
 interface Props {
   data: Data;
